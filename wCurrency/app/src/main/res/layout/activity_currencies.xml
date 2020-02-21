@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CurrenciesActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbarContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_below="@+id/toolbarContent"
+        android:id="@+id/searchViewCurriences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/seach_view_border"
+        android:queryHint="Search"
+        app:iconifiedByDefault="false"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ListView
+        android:id="@+id/listViewCurrencies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchViewCurriences"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="9dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:choiceMode="singleChoice"
+
+    android:background="@android:color/white" />
+
+
+</RelativeLayout>

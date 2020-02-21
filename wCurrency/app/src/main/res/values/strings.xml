@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">wCurrency</string>
+    <string name="chart">Chart</string>
+    <string name="convert">Convert</string>
+    <string name="compare">Compare</string>
+    <string name="add">add</string>
+    <string name="done">Done</string>
+    <string name="share">Share</string>
+    <string name="toChangeFlag">To change currency please touch the flag</string>
+    <string name="shareApp">Share App</string>
+    <string name="shareRates">Share Rates</string>
+    <string name="sort">Sort</string>
+    <string name="sortbyid">Sort by id</string>
+    <string name="sortbyname">Sort by Country name</string>
+    <string name="save">save</string>
+    <string name="history">History</string>
+    <string name="clear">Clear Hisoty</string>
+</resources>
